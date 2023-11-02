@@ -118,4 +118,40 @@ int main() {
 	return 0;
 }
 
+DAY:2
+There are 
 
+N buns in the mall, and each member of the family needs to eat 
+
+X buns everyday to survive.
+After the food supply runs out, the family can survive for a further 
+
+D days.
+
+How many days can Alice and family survive under these conditions?
+INPUT:
+2
+50 2 10
+120 5 15
+OUTPUT:
+15
+19
+
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	cin>>n;
+	int a,b,c;
+	for(int i=0;i<n;i++)
+	{
+	    cin>>a>>b>>c;
+	int d=a/b;
+	int f=d/5;
+	int e=f+c;
+	cout<<e<<endl;
+	}
+	return 0;
+}
