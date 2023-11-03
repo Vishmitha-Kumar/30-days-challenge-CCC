@@ -155,3 +155,35 @@ int main() {
 	}
 	return 0;
 }
+DAY 3:
+All of Chef's friends are playing fantasy cricket based upon the ODI World Cup, and Chef would like to join them.
+Input Format
+The first line of input will contain a single integer 
+T, denoting the number of test cases.
+The first and the only line of each testcase contains a single integer 
+N, the number of players Chef is considering.
+Output Format
+For each test case, output on a new line the number of possible choices of captain and vice-captain.
+
+INPUT:
+2
+2
+3
+OUTPUT:
+2
+6
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	int a;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>a;
+	cout<<a*(a-1)<<endl;
+	}
+	return 0;
+}
