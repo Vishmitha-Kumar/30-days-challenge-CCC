@@ -1,0 +1,36 @@
+
+
+What the hell are all these interactive problems? What does flushing output mean? So many questions... Chef explains it in an easy way: you must communicate with a grader program, which accepts your input only if you flushed the output.
+
+INPUT:
+2 1500
+1499
+1501
+OUTPUT:
+Bad boi
+Good boi
+
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	
+	int n,r;
+	cin>>n>>r;
+	int R;
+	for(int i=0;i<n;i++)
+	{
+	    cin>>R;
+	    if(r > R)
+	    {
+	        cout<<"Bad boi"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"Good boi"<<endl;
+	    }
+	}
+	return 0;
+}
