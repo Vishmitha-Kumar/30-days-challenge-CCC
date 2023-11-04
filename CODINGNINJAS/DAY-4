@@ -1,0 +1,17 @@
+Sorting of the given array
+Sample Input 1 :
+2
+6
+0 1 2 2 1 0
+7
+0 1 2 1 2 1 2
+Sample Output 1 :
+0 0 1 1 2 2
+0 1 1 1 2 2 2
+
+CODE:
+#include <bits/stdc++.h> 
+void sort012(int *arr, int n)
+{
+     return sort(arr,arr+n);
+}
