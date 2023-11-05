@@ -1,0 +1,25 @@
+Chef considers the number 
+7
+7 lucky. As a result, he believes that the 
+7
+7-th letter he sees on a day is his lucky letter of the day.
+
+INPUT:
+proceeding
+OUTPUT:
+d
+
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+	string str;
+	cin>>str;
+	for(int i=0;i<str.length();i++)
+	{
+	    cout<<str[6];
+	    break;
+	}
+	return 0;
+}
