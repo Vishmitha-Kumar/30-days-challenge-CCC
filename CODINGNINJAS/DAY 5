@@ -1,0 +1,30 @@
+A subarray is a contiguous segment of an array .
+A subarray can be formed by removing 0 or more integers from the beginning and 0 or more integers from the end array;
+Sample Input 1 :
+9
+1 2 7 -4 3 2 -10 9 1
+
+
+Sample Output 1 :
+11
+
+CODE:
+long long maxSubarraySum(vector<int> arr, int n)
+{
+    // Write your code here
+    int sum=0;
+    int maxi=0;
+    for(int i=0;i<n;i++)
+    {
+           sum+=arr[i];
+           if(sum >= maxi)
+           {
+               maxi=sum;
+           }
+           if(sum<=0)
+           {
+               sum=0;
+           }
+    }
+    return maxi;
+}
