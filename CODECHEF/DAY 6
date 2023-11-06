@@ -1,0 +1,46 @@
+Chef visited a grocery store for fresh supplies. There are 
+N items in the store where the ℎi th item has a freshness value Ai and cost Bi
+
+INPUT:
+4
+2 20
+15 67
+10 90
+
+OUTPUT:
+90
+
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	cin>>n;
+	int N,X;
+	for(int i=0;i<n;i++)
+	{
+	    cin>>N>>X;
+	
+	int arr[N];
+	int brr[N];
+	for(int i=0;i<N;i++)
+	{
+	    cin>>arr[i];
+	}
+	for(int i=0;i<N;i++)
+	{
+	    cin>>brr[i];
+	}
+	int cost=0;
+	for(int i=0;i<N;i++)
+	{
+	    if(arr[i] >= X)
+	    {
+	        cost+=brr[i];
+	    }
+	}
+	cout<<cost<<endl;
+	}   
+	return 0;
+}
