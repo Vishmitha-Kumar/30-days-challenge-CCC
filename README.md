@@ -5,3 +5,4 @@ DAY-3: CODECHEF-Selecting of caption and vice caption fron N players ||CODINGNIN
 DAY-4: CODECHEF-Chefintro || CODINGNINJAS-Sorting of an array||LEETCODE-Returning indices of the sums
 DAY-5: CODECHEF-Luckyseven||CODINGNINJAS-A subarray is a contiguous segment of an array .||LEETCODE- Return true if x is a 
 palindrome
+DAY-6: CODECHEF-Cost of groceries||CODINGNINJAS-Swap of numbers||LEETCODE-Return maximum product
