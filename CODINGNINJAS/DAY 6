@@ -1,0 +1,12 @@
+Swap of numbers
+
+Sample Input 1:
+1 2 
+Sample Output 1:
+2 1
+
+CODE:
+void swapNumber(int &a, int &b) {
+	// Write your code 
+	return swap(a,b);
+}
