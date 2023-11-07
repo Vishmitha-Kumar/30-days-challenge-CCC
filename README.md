@@ -6,3 +6,4 @@ DAY-4: CODECHEF-Chefintro || CODINGNINJAS-Sorting of an array||LEETCODE-Returnin
 DAY-5: CODECHEF-Luckyseven||CODINGNINJAS-A subarray is a contiguous segment of an array .||LEETCODE- Return true if x is a 
 palindrome
 DAY-6: CODECHEF-Cost of groceries||CODINGNINJAS-Swap of numbers||LEETCODE-Return maximum product
+DAY-7: CODECHEF-Running comparison||CODINGNINJAS-Duplicate in the array||LEETCODE-Add 1 to last.
