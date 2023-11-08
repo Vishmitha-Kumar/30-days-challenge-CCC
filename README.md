@@ -8,3 +8,4 @@ palindrome
 DAY-6: CODECHEF-Cost of groceries||CODINGNINJAS-Swap of numbers||LEETCODE-Return maximum product
 DAY-7: CODECHEF-Running comparison||CODINGNINJAS-Duplicate in the array||LEETCODE-Add 1 to last.
 DAY-8: CODECHEF-Rotate array||CODINGNINJAS-First missing positive||LEETCODE-Sum of min and max.
+DAY-9: CODECHEF-Intersection of two sorted arrays||CODINGNINJAS-Return the arrays elements of the target sume||LEETCODE-Minimum sum Subsquare of given sum
