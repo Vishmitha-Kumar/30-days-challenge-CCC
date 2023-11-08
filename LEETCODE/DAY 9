@@ -1,0 +1,26 @@
+Minimum sum Subsquare of given sum
+
+Sample Input 1 :
+8 3
+10 4 2 5 6 3 8 1
+Sample Output 1 :
+11
+
+CODE:
+#include <bits/stdc++.h> 
+int minSubarraySum(int arr[], int n, int k) 
+{  
+        int minSum=INT_MAX;
+    for(int i=0;i<=n-k;i++)
+    {  
+        int sum=0;
+         for(int j=i;j<i+k;j++)
+         {
+             sum+=arr[j];
+             
+         }
+         minSum=min(minSum,sum);
+
+    }
+    return minSum;
+}
