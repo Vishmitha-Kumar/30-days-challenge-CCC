@@ -1,0 +1,38 @@
+Find the maximum number of points Chef can score if he optimally decides the order of attempting both the problems.
+
+Input
+4
+10 20
+8 40
+15 15
+20 10
+Output
+1360
+1292
+1380
+1400
+
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	cin>>n;
+	int a,b;
+	while(n--)
+	{
+	    cin>>a>>b;
+	    int fa=500-2*a + 1000-4*(a+b);
+	    int fb=1000-4*b + 500-2*(a+b);
+	    if(fa > fb)
+	    {
+	        cout<<fa<<endl;
+	    }
+	    else
+	    {
+	        cout<<fb<<endl;
+	    }
+	}
+	return 0;
+}
