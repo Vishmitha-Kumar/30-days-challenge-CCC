@@ -1,0 +1,41 @@
+You have been given two arrays/list 'ARR1' and 'ARR2' consisting of 'N' and 'M' integers respectively . Your task is to return the number of elements common to ARR1 and ARR2 and the number of elements in the union of ARR1 and ARR2
+
+Sample Input 1:
+2
+2 2
+1 2
+3 4  
+2 1
+2 3
+3
+Sample Output 1:
+0 4
+1 2
+
+CODE:
+#include <bits/stdc++.h> 
+pair < int , int > findSimilarity(vector < int > arr1, vector < int > arr2, int n, int m) 
+{
+	int a=0;
+	int b=0;
+	int c=0;
+	int n1=arr1.size();
+	int n2=arr2.size();
+   sort(arr1.begin(),arr1.end());
+   sort(arr2.begin(),arr2.end());
+   while(a < n1 && b < n2)
+   {
+        if(arr1[a] > arr2[b])
+		b++;
+		else if(arr1[a] < arr2[b])
+		a++;
+                else if (arr1[a] == arr2[b]) {
+                c=c+1;
+                a++;
+                b++;
+                }
+   }
+				int p=n1+n2-c;
+				pair<int,int>ans={c,p};
+				return ans;
+}
