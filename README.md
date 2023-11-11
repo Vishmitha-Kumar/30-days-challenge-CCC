@@ -10,3 +10,4 @@ DAY-7: CODECHEF-Running comparison||CODINGNINJAS-Duplicate in the array||LEETCOD
 DAY-8: CODECHEF-Rotate array||CODINGNINJAS-First missing positive||LEETCODE-Sum of min and max.
 DAY-9: CODECHEF-Intersection of two sorted arrays||CODINGNINJAS-Return the arrays elements of the target sume||LEETCODE-Minimum sum Subsquare of given sum
 DAY-10:CODECHEF-Aor B||CODINGNINJAS-Common and union of both arrays||LEETCODE-Climbing of staircase
+DAY-11:CODECHEF-Weights||CODINGNINJAS-Second largest element in the array||LEETCODE-Merge and sort the arrays
