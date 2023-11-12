@@ -1,0 +1,33 @@
+Happy number
+Write an algorithm to determine if a number n is happy.
+
+Input: n = 19
+Output: true
+
+CODE:
+
+
+#include <cmath> 
+
+class Solution {
+public:
+    
+    int squareDigits(int n){
+        int sum = 0;
+        while (n) {
+            sum = sum + pow(n % 10, 2);
+            n = n / 10;
+        }
+        return sum;
+    }
+
+    bool isHappy(int n) {
+        while (n != 1) {
+            n = squareDigits(n);
+            if (n == 4) {
+                return false;
+            }
+        }
+        return true;        
+    }
+};
