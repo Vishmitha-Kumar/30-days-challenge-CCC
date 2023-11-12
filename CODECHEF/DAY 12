@@ -1,0 +1,52 @@
+Chef and happy string
+Chef has a string 
+S with him. Chef is happy if the string contains a contiguous substring of length strictly greater than 
+2
+2 in which all its characters are vowels.
+
+Input
+
+4
+aeiou
+abxy
+aebcdefghij
+abcdeeafg
+
+Output
+Happy
+Sad
+Sad
+Happy
+
+CODE:
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    string s;
+	    cin>>s;
+	    int count=0;
+	    int l=s.length();
+	    for(int i=0;i<l;i++)
+	    {
+	    if(s[i]=='a' || s[i]=='e'||s[i]=='i' || s[i]=='o'||s[i]=='u')
+	    {
+	        count++;
+	        if(count>=3)
+	        {
+	            cout<<"Happy"<<endl;
+	            break;
+	        }
+	    }
+	       else
+	        count=0;
+	    }
+	   if(count<3)
+	   cout<<"Sad"<<endl;
+	}
+	return 0;
+}
