@@ -11,3 +11,4 @@ DAY-8: CODECHEF-Rotate array||CODINGNINJAS-First missing positive||LEETCODE-Sum 
 DAY-9: CODECHEF-Intersection of two sorted arrays||CODINGNINJAS-Return the arrays elements of the target sume||LEETCODE-Minimum sum Subsquare of given sum
 DAY-10:CODECHEF-Aor B||CODINGNINJAS-Common and union of both arrays||LEETCODE-Climbing of staircase
 DAY-11:CODECHEF-Weights||CODINGNINJAS-Second largest element in the array||LEETCODE-Merge and sort the arrays
+DAY-12:CODECHEF-Chef and happy string||CODINGNINJAS-Check if the string is a palindrome||LEETCODE-Happy number
