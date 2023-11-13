@@ -12,3 +12,4 @@ DAY-9: CODECHEF-Intersection of two sorted arrays||CODINGNINJAS-Return the array
 DAY-10:CODECHEF-Aor B||CODINGNINJAS-Common and union of both arrays||LEETCODE-Climbing of staircase
 DAY-11:CODECHEF-Weights||CODINGNINJAS-Second largest element in the array||LEETCODE-Merge and sort the arrays
 DAY-12:CODECHEF-Chef and happy string||CODINGNINJAS-Check if the string is a palindrome||LEETCODE-Happy number
+DAY-13:CODECHEF-The Cooler Dilemma 2||CODINGNINJAS-Sum of two arrays||LEETCODE-Best Time to Buy and Sell Stock
