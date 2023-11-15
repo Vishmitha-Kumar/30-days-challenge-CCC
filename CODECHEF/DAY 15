@@ -1,0 +1,52 @@
+Chef on island
+Suppose Chef is stuck on an island and currently he has 
+ 
+x units of food supply and 
+
+y units of water supply in total that he could collect from the island. He needs 
+x 
+r
+​
+  units of food supply and 
+y 
+r
+​
+  units of water supply per day at the minimal to have sufficient energy to build a boat from the woods and also to live for another day. Assuming it takes exactly 
+
+D days to build the boat and reach the shore, tell whether Chef has the sufficient amount of supplies to be able to reach the shore by building the boat?
+
+Input
+
+3
+4 2 1 1 1
+4 2 1 3 1
+4 2 4 2 2
+
+Output
+
+YES
+NO
+NO
+
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x,y,xr,yr,d;
+	while(t--)
+	{
+	    cin>>x>>y>>xr>>yr>>d;
+	    int f=x/xr;
+	    int w=y/yr;
+	    int ans=min(f,w);
+	    if(ans>=d)
+	    cout<<"YES"<<endl;
+	    else
+	    cout<<"NO"<<endl;
+	}
+	return 0;
+}
