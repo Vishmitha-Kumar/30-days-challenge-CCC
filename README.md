@@ -15,4 +15,4 @@ DAY-12:CODECHEF-Chef and happy string||CODINGNINJAS-Check if the string is a pal
 DAY-13:CODECHEF-The Cooler Dilemma 2||CODINGNINJAS-Sum of two arrays||LEETCODE-Best Time to Buy and Sell Stock
 DAY-14:CODECHEF-Red light,Green light||CODINGNINJAS-Form a triangle ||LEETCODE-Ugly number
 DAY-15:CODECHEF-Chef on island||CODINGNINJAS-Total salary||LEETCODE-Containsduplicate
-DAY-16:CODECHEF-Missing number||CODINGNINJAS-Inplace rotate matrix 90||LEETCODE-Counting preety numbers
+DAY-16:CODECHEF-Missing number||CODINGNINJAS-Inplace rotate matrix 90||LEETCODE-Counting pretty numbers
