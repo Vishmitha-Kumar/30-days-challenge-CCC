@@ -1,0 +1,49 @@
+Counting pretty numbers
+
+Vasya likes the number 
+239
+239. Therefore, he considers a number pretty if its last digit is 
+2
+2, 
+3
+3 or 
+9
+9.
+
+Input
+
+2
+1 10
+11 33
+
+Output
+3
+8
+
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+
+    while (t--) {
+        int l, r;
+        cin >> l >> r;
+
+        int count = 0;
+
+        for (int i = l; i <= r; i++) {
+            int s = i % 10;
+
+            if (s == 2 || s == 3 || s == 9) {
+                count++;
+            }
+        }
+
+        cout << count << endl;
+    }
+
+    return 0;
+}
