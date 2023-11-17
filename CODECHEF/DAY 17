@@ -1,0 +1,43 @@
+Notimetowait
+
+Only 
+
+x hours are left for the March Long Challenge and Chef is only left with the last problem unsolved. However, he is sure that he cannot solve the problem in the remaining time. From experience, he figures out that he needs exactly 
+
+H hours to solve the problem.
+
+Input
+
+2 5 3
+1 2
+Output
+YES
+
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	int n,h, x;
+	cin>>n>>h>>x;
+	int t;
+	int f=0;
+	while(n--)
+	{
+	    cin>>t;
+	    if((x+t)==h)
+	    f++;
+	    
+	}
+	if(f>=1)
+	{
+	    cout<<"YES";
+	}
+	else
+	{
+	    cout<<"NO";
+	}
+	return 0;
+}
+
