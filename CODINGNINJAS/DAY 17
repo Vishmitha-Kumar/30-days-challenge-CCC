@@ -1,0 +1,32 @@
+Replace space
+You have been given a string replace all the space into "@40";
+
+Sample Input :
+2
+Coding Ninjas Is A Coding Platform
+Hello World
+
+Sample Output :
+Coding@40Ninjas@40Is@40A@40Coding@40Platform
+Hello@40World
+
+CODE:
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+	public static StringBuilder replaceSpaces(StringBuilder str) {
+		// Write your code here.
+		StringBuilder sb=new StringBuilder();
+		for(int i=0;i<str.length();i++)
+		{
+			if(str.charAt(i)==' ')
+			sb.append("@40");
+		
+		else
+		{
+			sb.append(str.charAt(i));
+		}
+		}
+		return sb;
+	}
+}
