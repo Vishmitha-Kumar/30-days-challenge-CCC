@@ -33,3 +33,5 @@ DAY-15:CODECHEF-Chef on island||CODINGNINJAS-Total salary||LEETCODE-Containsdupl
 DAY-16:CODECHEF-Missing number||CODINGNINJAS-Inplace rotate matrix 90||LEETCODE-Counting pretty numbers
 
 DAY-17:CODECHEF-No time to wait||CODING NINJAS-Replace space||LEETCODE-Length of the last word
+
+DAY-18:CODECHEF-Find the direction||CODING NINJAS-Valid parantheses||LEETCODE-Hamming distance
