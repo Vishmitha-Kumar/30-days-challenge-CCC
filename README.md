@@ -35,3 +35,5 @@ DAY-16:CODECHEF-Missing number||CODINGNINJAS-Inplace rotate matrix 90||LEETCODE-
 DAY-17:CODECHEF-No time to wait||CODING NINJAS-Replace space||LEETCODE-Length of the last word
 
 DAY-18:CODECHEF-Find the direction||CODING NINJAS-Valid parantheses||LEETCODE-Hamming distance
+
+DAY-19:CODECHEF-Olympics ranking||CODING NINJAS-Maximum swap||LEETCODE-Task scheduler
