@@ -1,0 +1,34 @@
+Maximum swap
+
+Given a positive integer N,you can do the following operation at most once
+a)Swap two digits of the N.You need to determine the largest integer you can get by performing the above operation at most once 
+
+ Input 1:
+2
+4589
+99538
+ Output 1:
+
+9584
+99835
+
+CODE:
+#include <bits/stdc++.h> 
+using namespace std;
+
+int maximumSwap(int n) {
+       string str=to_string(n);
+       string temp=str;
+       int l=str.length();
+       for(int i=0;i<l;i++)
+       {
+              for(int j=0;j<l;j++)
+              {
+                     swap(str[i],str[j]);
+                     if( stoi(str)>stoi(temp))
+                     temp=str;
+                     swap(str[i],str[j]);
+              }
+       }
+       return stoi(temp);
+}
