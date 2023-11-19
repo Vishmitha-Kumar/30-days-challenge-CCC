@@ -1,0 +1,26 @@
+Given a characters array tasks, representing the tasks a CPU needs to do, where each letter represents a different task. Tasks could be done in any order. Each task is done in one unit of time. For each unit of time, the CPU could complete either one task or just be idle.
+
+Input: tasks = ["A","A","A","B","B","B"], n = 2
+Output: 8
+
+CODE:
+
+class Solution {
+    public int leastInterval(char[] tasks, int n) {
+        int[] char_map=new int[26];
+        for(char c: tasks)
+        {
+            char_map[c-'A']++;
+        }
+        Arrays.sort(char_map);
+        int max_val = char_map[25]-1;
+        int idle_slots= max_val*n;
+
+        for(int i=24;i>=0;i--)
+        {
+            idle_slots -= Math.min(char_map[i],max_val);
+        }
+        return idle_slots > 0? idle_slots + tasks.length : tasks.length;
+
+    }
+}
