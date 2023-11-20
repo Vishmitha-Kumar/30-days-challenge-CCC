@@ -37,3 +37,5 @@ DAY-17:CODECHEF-No time to wait||CODING NINJAS-Replace space||LEETCODE-Length of
 DAY-18:CODECHEF-Find the direction||CODING NINJAS-Valid parantheses||LEETCODE-Hamming distance
 
 DAY-19:CODECHEF-Olympics ranking||CODING NINJAS-Maximum swap||LEETCODE-Task scheduler
+
+DAY-20:CODECHEF-Existence||CODING NINJAS-Reverse string||LEETCODE-Singlenumber
