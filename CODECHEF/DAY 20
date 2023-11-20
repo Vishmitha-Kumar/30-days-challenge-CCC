@@ -1,0 +1,66 @@
+ Chef has two variables 
+ 
+X and 
+ 
+Y. He wants to find out whether the variables satisfy the equation:
+
+ 
+4
++
+4
+⋅
+ 
+2
+=
+4
+⋅
+ 
+2
+⋅
+ 
+X 
+4
+ +4⋅Y 
+2
+ =4⋅X 
+2
+ ⋅Y
+
+Input
+5
+2 2
+4 4
+3 6
+8 32
+200000000 20000000000000000
+
+Output
+
+YES
+NO
+NO
+YES
+YES
+
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+  int t;
+  cin>>t;
+  long long a,b;
+  while(t--)
+  {
+      cin>>a>>b;
+      int sum=a*a;
+      int sum1=2*b;
+      if(sum==sum1)
+      cout<<"YES"<<endl;
+      else
+      cout<<"NO"<<endl;
+  }
+	return 0;
+}
+
