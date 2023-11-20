@@ -1,0 +1,26 @@
+Reverse words in a string
+
+You are given a string 'str' of length 'N' .Your task is to reverse the original string word by word.
+
+ Input 1 :
+Welcome to Coding Ninjas
+ Output 1:
+Ninjas Coding to Welcome
+
+CODE:
+public class Solution 
+{
+	public static String reverseString(String str) 
+	{
+		//Write your code here
+		String str1[]=str.split(" ");
+		StringBuilder sb=new StringBuilder("");
+		int len=str1.length;
+
+		for(int i=len-1;i>=0;i--)
+		{
+			sb.append(str1[i]+" ");
+		}
+		return sb.toString();
+	}
+}
