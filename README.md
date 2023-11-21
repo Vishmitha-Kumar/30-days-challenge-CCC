@@ -39,3 +39,5 @@ DAY-18:CODECHEF-Find the direction||CODING NINJAS-Valid parantheses||LEETCODE-Ha
 DAY-19:CODECHEF-Olympics ranking||CODING NINJAS-Maximum swap||LEETCODE-Task scheduler
 
 DAY-20:CODECHEF-Existence||CODING NINJAS-Reverse string||LEETCODE-Singlenumber
+
+DAY-21:CODECHEF-Counting holidays||CODING NINJAS-Reverse the string||LEETCODE-Magority element
