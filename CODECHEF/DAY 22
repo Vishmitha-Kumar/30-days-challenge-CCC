@@ -1,0 +1,45 @@
+Avoid contact
+
+A hostel has 
+ 
+N rooms in a straight line. It has to accommodate 
+ 
+X people. Unfortunately, out of these 
+ 
+X people, 
+ 
+Y of them are infected with chickenpox. Due to safety norms, the following precaution must be taken:
+
+No person should occupy a room directly adjacent to a room occupied by a chickenpox-infected person. In particular, two chickenpox-infected people cannot occupy adjacent rooms.
+
+Input
+
+3
+4 0
+5 3
+3 3
+
+Output
+4
+8
+5
+
+CODE:
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+		int t;
+	cin>>t;
+	
+	while(t--) {
+	    int x, y, a;
+	    cin>>x>>y;
+	    
+	    a = 2*y + (x-y);
+	    
+	    cout<< ( x == y ?  a-1 : a) <<endl;
+	}
+	return 0;
+}
