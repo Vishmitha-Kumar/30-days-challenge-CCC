@@ -43,3 +43,5 @@ DAY-20:CODECHEF-Existence||CODING NINJAS-Reverse string||LEETCODE-Singlenumber
 DAY-21:CODECHEF-Counting holidays||CODING NINJAS-Reverse the string||LEETCODE-Magority element
 
 DAY-22:CODECHEF-Avoid contact||CODING NINJAS-Replace character||LEETCODE-Pascal's triangle
+
+DAY-23:CODECHEF-How many digits do I have||CODING NINJAS-Fish eaters||LEETCODE-Add digits
