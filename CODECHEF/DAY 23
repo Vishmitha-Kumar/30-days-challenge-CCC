@@ -1,0 +1,40 @@
+How many digits do i have
+Write a program to obtain a number 
+(
+ 
+)
+(N) from the user and display whether the number is a one digit number, 2 digit number, 3 digit number or more than 3 digit number
+Input
+9
+Output
+1
+
+CODE:
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int count=0;
+		while(n>0)
+		{
+		    int r=n%10;
+		    count++;
+		    n=n/10;
+		}
+		if(count<=3)
+		System.out.print(count);
+		else
+		System.out.print("More than 3 digits");
+	}
+}
+
