@@ -1,0 +1,39 @@
+Yesterday, puppy Tuzik learned a magically efficient method to find the sum of the integers from 1 to N. He denotes it as sum(N). But today, as a true explorer, he defined his own new function: sum(D, N), which means the operation sum applied D times: the first time to N, and each subsequent time to the result of the previous operation.
+/* package codechef; // don't place package name! */
+
+Input
+2
+1 4
+2 3
+Output
+10
+21
+
+CODE:
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		
+		for(int j=0;j<n;j++)
+		{
+    		int a=sc.nextInt();
+    		int b=sc.nextInt();
+		int sum=0;
+    		for(int i=1;i<=a;i++)
+    		{
+    		    sum=b*(b+1)/2;
+    		    b=sum;
+    		}
+		System.out.println(b);
+		}
+	}
+}
