@@ -46,4 +46,4 @@ DAY-22:CODECHEF-Avoid contact||CODING NINJAS-Replace character||LEETCODE-Pascal'
 
 DAY-23:CODECHEF-How many digits do I have||CODING NINJAS-Fish eaters||LEETCODE-Add digits
 
-DAY-24:CODECHEF-Puppy and sum||CODING NINJAS-||LEETCODE-Power of two
+DAY-24:CODECHEF-Puppy and sum||CODING NINJAS-Duplicate in the array||LEETCODE-Power of two
