@@ -1,0 +1,38 @@
+Odd to Even
+
+
+CODE:
+
+#include <bits/stdc++.h> 
+string oddToEven(string &num) 
+{
+	// Write your code here
+	  int size = num.size();
+    int j = size-1;
+    int index = -1;
+    int last = num[size-1]-48;
+    for(int i=0;i<size;i++){
+        int n = (num[i]-48);
+        if(n%2==0){
+            if(i==0 && n<last){
+                swap(num[i],num[j]);
+                return num;
+            }else if(i>0 && n<last){
+                swap(num[i],num[j]);
+                return num;
+            }else if(i>=0 && n>last)
+                if(i>index){
+                    index = i;
+                }
+            }
+
+        }
+    
+    if(index == -1){
+        return "-1";
+    }
+    
+    swap(num[index],num[j]);
+    return num;
+}
+
