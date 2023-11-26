@@ -49,3 +49,5 @@ DAY-23:CODECHEF-How many digits do I have||CODING NINJAS-Fish eaters||LEETCODE-A
 DAY-24:CODECHEF-Puppy and sum||CODING NINJAS-Duplicate in the array||LEETCODE-Power of two
 
 DAY-25:CODECHEF-Chef's battery on phone||CODING NINJAS-Minimize Difference||LEETCODE-Guess a number
+
+DAY-26:CODECHEF-Kitchen Timings||CODING NINJAS-Odd to Even||LEETCODE-Reverse string
