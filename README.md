@@ -51,3 +51,5 @@ DAY-24:CODECHEF-Puppy and sum||CODING NINJAS-Duplicate in the array||LEETCODE-Po
 DAY-25:CODECHEF-Chef's battery on phone||CODING NINJAS-Minimize Difference||LEETCODE-Guess a number
 
 DAY-26:CODECHEF-Kitchen Timings||CODING NINJAS-Odd to Even||LEETCODE-Reverse string
+
+DAY-27:CODECHEF-Lucky four||CODING NINJAS-String mania||LEETCODE-Island perimeter
