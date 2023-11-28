@@ -53,3 +53,5 @@ DAY-25:CODECHEF-Chef's battery on phone||CODING NINJAS-Minimize Difference||LEET
 DAY-26:CODECHEF-Kitchen Timings||CODING NINJAS-Odd to Even||LEETCODE-Reverse string
 
 DAY-27:CODECHEF-Lucky four||CODING NINJAS-String mania||LEETCODE-Island perimeter
+
+DAY-28:CODECHEF-Shoe fit||CODING NINJAS-Count words||LEETCODE-Concantenation of array
