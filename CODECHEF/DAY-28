@@ -1,0 +1,55 @@
+SHOE FIT
+You have three shoes of the same size lying around. Each shoe is either a left shoe (represented using 
+0
+0) or a right shoe (represented using 
+1
+1). Given 
+ 
+A, 
+ 
+B, 
+ 
+C, representing the information for each shoe, find out whether you can go out now, wearing one left shoe and one right shoe.
+
+
+Input
+
+3
+0 0 0
+0 1 1
+1 0 1
+
+Output
+0
+1
+1
+
+CODE:
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+			Scanner sc = new Scanner(System.in);
+		
+		int testcase = sc.nextInt();
+		
+		
+		for (int inc = 0; inc<testcase; inc++ )
+		{ 
+		   HashSet<Integer> set=new HashSet<>();
+		   for(int i=0;i<3;i++){
+		       set.add(sc.nextInt());
+		   }
+		   
+		   System.out.println(set.contains(0)&&set.contains(1)?1:0);
+		}
+	}
+}
