@@ -1,0 +1,93 @@
+The mayor of your city has decided to throw a party to gather the favour of his people in different regions of the city.
+
+There are 
+3
+3 distinct regions in the city namely 
+�
+A, 
+�
+B, 
+�
+C comprising of 
+�
+�
+P 
+A
+​
+ , 
+�
+�
+P 
+B
+​
+  and 
+�
+�
+P 
+C
+​
+  number of people respectively.
+
+However, the mayor knows that people of the region 
+�
+B are in conflict with people of regions 
+�
+A and 
+�
+C. So, there will be a conflict if people from region 
+�
+B are present at the party along with people from region 
+�
+A or 
+�
+C.
+
+The mayor wants to invite as many people as possible and also avoid any conflicts. Help him invite maximum number of people to the party.
+
+
+
+Input
+3
+2 3 4
+1 5 2
+8 8 8
+Output
+6
+5
+16
+
+
+CODE:
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		
+		for(int i=0;i<n;i++)
+		{
+    		int a=sc.nextInt();
+    		int b=sc.nextInt();
+    		int c=sc.nextInt();
+    		
+    		if((a+c)>b)
+    		{
+    		    System.out.println(a+c);
+    		}
+    		else
+    		{
+    		    System.out.println(b);
+    		}
+		}
+		
+	}
+}
