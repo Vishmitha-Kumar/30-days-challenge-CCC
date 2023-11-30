@@ -57,3 +57,5 @@ DAY-27:CODECHEF-Lucky four||CODING NINJAS-String mania||LEETCODE-Island perimete
 DAY-28:CODECHEF-Shoe fit||CODING NINJAS-Count words||LEETCODE-Concantenation of array
 
 DAY-29:CODECHEF-Peacefull party||CODING NINJAS-Flower shop||LEETCODE-Power of three.
+
+DAY-30:CODECHEF-CaeRange||CODING NINJAS-LEETCODE-Power of four.
