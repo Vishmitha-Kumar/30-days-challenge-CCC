@@ -1,0 +1,45 @@
+The fuel economy of a car is the distance which it can travel on one litre of fuel.
+
+The base fuel economy (i.e, its fuel economy when there is only one person - the driver - in the car) of a certain car is 
+�
+M kilometres per litre. It was also observed that every extra passenger in the car decreases the fuel economy by 
+1
+1 kilometre per litre.
+
+Input
+
+3
+5 10 20
+1 6 10
+4 6 1
+
+Output
+120
+60
+3
+
+CODE:
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s=new Scanner(System.in);
+	    int t=s.nextInt();
+	    for(int i=1;i<=t;i++)
+	    {
+	       int a=s.nextInt();
+	       int b=s.nextInt();
+	       int c=s.nextInt();
+	       int r=b-(a-1);
+	       System.out.println(r*c);
+	    }
+	}
+}
