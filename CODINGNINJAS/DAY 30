@@ -1,0 +1,23 @@
+Armstrong Number
+
+import java.util.* ;
+import java.io.*; 
+public class Solution 
+{
+	public static boolean isArmstrong(int num)
+	{
+	    // wrtie your code here;
+		    int temp=num;
+		int rem=0;
+		int sum=0;
+		int count=(String.valueOf(num)).length();
+		while(temp!=0){
+			rem=temp%10;
+			sum+=Math.pow(rem, count);
+            temp/=10;
+		}
+		return sum==num;
+
+	}
+}
+
