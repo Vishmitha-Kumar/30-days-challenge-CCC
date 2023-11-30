@@ -58,4 +58,4 @@ DAY-28:CODECHEF-Shoe fit||CODING NINJAS-Count words||LEETCODE-Concantenation of 
 
 DAY-29:CODECHEF-Peacefull party||CODING NINJAS-Flower shop||LEETCODE-Power of three.
 
-DAY-30:CODECHEF-CaeRange||CODING NINJAS-Armstrong Number||LEETCODE-Power of four.
+DAY-30:CODECHEF-CarRange||CODING NINJAS-Armstrong Number||LEETCODE-Power of four.
